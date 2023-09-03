@@ -20,7 +20,7 @@ app.post("/api/getbasicinfos/", async(req, res) => {
     }).catch(err => {
         console.log(err)
         return res.send("notfound")
-        // test
+      
     })
     return res.send(data)
 })

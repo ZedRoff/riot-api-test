@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Do Hyeon:400,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root {
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: #f5f5f5;
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(255, 251, 230); 
+    background: rgb(35, 36, 35);
+    padding: 25px;
+    box-shadow: 6px 6px 6px black;
+    font-size: 15px;
+    z-index:99;
+}
+.main_home {
+    display:flex;
+    flex-direction:column;
+    background: #222747;
+    flex: 1;
+}
+.main_lol {
+    display:flex;
+    flex-direction:column;
+    background: #222747;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.input_main {
+    height: 75px;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border:none;
+    outline:none;
+    border-right: 2px solid black;
+    width: 350px;
+    font-size: 25px;
+}
+
+.input_sys {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.spacer {
+   background:grey;
+   height: 75px;
+   padding: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+  display:flex;
+  width: 75px;
+  
+   justify-content: center;
+   align-items: center;
+   border-left: 2px solid black;
+}
+.spacer:hover {
+    background: #FF6464;
+    cursor:pointer;
+}
+.search_icon {
+    font-size: 20px;
+}
+.container:nth-child(1) {
+ 
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+.container:nth-child(2) {
+    flex: 2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 15px;
+}
+.btn_main {
+    background-color: #FF6464;
+    padding: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 100;
+    border-radius: 25px;
+    width: 250px;
+    font-size: 25px;
+    margin-top: 5%;
+    transition: .5s all;
+}
+.btn_main:hover {
+    box-shadow: 6px 6px 6px black;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.main_description {
+    color:white;
+    border-bottom: 3px dashed white;
+    font-size: 35px;
+}
+footer {
+    background:#6969FF;
+    padding: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px groove black;
+    height: 75px;
+}
+.footer_text {
+    color:white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.header_icon, .footer_icon {
+    font-size: 25px;
+    color: white;
+    transition: .5s all;
+}
+.header_icon:hover,.footer_icon:hover {
+    transform: scale(1.1);
+    cursor:pointer;
+}
